@@ -1,1 +1,54 @@
-
+.container-image {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 55.29%,
+      #2c003e 100%
+    ),
+    url('../img/hero-background-mob-1x.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  padding-top: 64px;
+}
+.icon-play {
+  background-image: url('../img/icon-play-market.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container-title {
+  /* background-image: url('../img/title-background-1x.webp'); */
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 538px;
+  padding: 89px 0px 129px;
+}
+.hero-title {
+  font-family: 'Overlock SC', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 32px;
+}
+.hero-text {
+  font-family: 'Overlock SC', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2c003e;
+  max-width: 279px;
+  margin-bottom: 129px;
+}
