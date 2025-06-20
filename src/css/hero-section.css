@@ -1,0 +1,75 @@
+.hero-section-container {
+  background-color: #2c003e;
+  padding-top: 48px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section-title {
+  font-family: 'Overlock SC', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ebe7ec;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.hero-section-subtitle {
+  font-family: 'Overlock SC', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ebe7ec;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.hero-section-text {
+  font-family: 'Overlock SC', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: justify;
+  color: #ebe7ec;
+  margin-top: 22px;
+  margin-bottom: 56px;
+}
+.hero-section-svg {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section-container {
+    background-color: #ebe7ec;
+    padding: 50px 20px;
+  }
+  .hero-section-title {
+    font-family: 'Slackey', sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    color: #2c003e;
+    margin-bottom: 0;
+  }
+  .hero-section-subtitle {
+    font-family: 'Slackey', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2c003e;
+    margin-bottom: 32px;
+  }
+  .hero-section-text {
+    font-family: 'Overlock SC', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #2c003e;
+    margin-bottom: 84px;
+  }
+  .hero-section-img {
+    display: none;
+  }
+  .hero-section-svg {
+    display: block;
+    fill: #2c003e;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+}
