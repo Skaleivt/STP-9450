@@ -1,0 +1,117 @@
+.back-link {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ebe7ec;
+  text-align: left;
+  display: block;
+  margin-bottom: 69px;
+  transition: color 250ms ease-in-out;
+}
+
+.back-link:hover,
+.back-link:focus {
+  color: #ff3b30;
+}
+
+.privacy-section {
+  background-color: #2c003e;
+  padding: 26px 0 96px;
+}
+
+h2 {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ebe7ec;
+  margin-bottom: 35px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.divider-arrow {
+  display: block;
+  background-image: url("/img/arrow@1x.webp");
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 297px;
+}
+
+.privacy-title {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ebe7ec;
+  margin-bottom: 7px;
+}
+
+.privacy-subtitle {
+  font-family: "Slackey", sans-serif;
+  font-size: 24px;
+  color: #ebe7ec;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.privacy-text {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ebe7ec;
+  text-align: left;
+}
+
+.privacy-list-item {
+  margin-bottom: 20px;
+}
+
+.divider-arrow {
+  margin-bottom: 49px;
+}
+
+address{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ebe7ec;
+  text-decoration: underline;
+  text-align: left;
+  font-style: normal;
+}
+
+.privacy-link {
+  display: block;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ebe7ec;
+  text-decoration: underline;
+}
+
+.privacy{
+  display: inline;
+}
+
+@media only screen and (min-width: 1200px) {
+  .back-link {
+      margin-bottom: 99px;
+    }
+
+  .divider-arrow {
+    display: none;
+  }
+
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .privacy-title{
+    margin-bottom: 99px;
+  }
+}
