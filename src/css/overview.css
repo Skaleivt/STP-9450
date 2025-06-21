@@ -1,10 +1,11 @@
 .overview-container {
-  background-color: #2c003e;
   padding-top: 48px;
-  padding-bottom: 400px;
+  padding-bottom: 48px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
+  background: #2c003e;
+  padding-bottom: 550px;
 }
 .owerview-title {
   font-family: 'Overlock SC', sans-serif;
@@ -30,16 +31,65 @@
   color: #ebe7ec;
 }
 .image-container {
-  height: 94px;
   background-color: #bea0c5;
   position: relative;
-  overflow: visible;
   z-index: 2;
+  height: 120px;
 }
 .overview-img-iphone {
-  margin-bottom: 20px;
   position: absolute;
-  bottom: 0;
-  right: -50px;
-  z-index: 3;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+}
+.overview-img {
+  margin-bottom: 20px;
+}
+.overview-svg {
+  display: none;
+}
+@media only screen and (min-width: 1200px) {
+  .overview-container {
+    background: linear-gradient(to bottom, #bea0c5 31%, #2c003e 31%);
+    padding: 40px 20px;
+  }
+  .owerview-title {
+    font-family: 'Slackey', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #2c003e;
+  }
+  .owerview-subtitle {
+    font-family: 'Slackey', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #2c003e;
+    margin-bottom: 55px;
+  }
+  .owerview-text {
+    max-width: 683px;
+    font-family: 'Overlock SC', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: justify;
+    color: #bea0c5;
+  }
+  .overview-img {
+    display: none;
+  }
+  .overview-img-iphone {
+    width: 482px;
+    height: 626px;
+    bottom: 10px;
+  }
+  .image-container {
+    padding: 54px 0;
+    height: auto;
+  }
+  .overview-svg {
+    display: block;
+    fill: #2c003e;
+    margin: 0 auto;
+  }
 }

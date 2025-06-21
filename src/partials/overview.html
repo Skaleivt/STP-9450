@@ -1,4 +1,4 @@
-<section>
+<section class="overview-section" id="overview">
   <div class="overview-container container">
     <h2 class="owerview-title">Gameplay Overview</h2>
     <h3 class="owerview-subtitle">Master the Match3 Mechanics</h3>
@@ -23,11 +23,23 @@
     </p>
   </div>
   <div class="image-container container">
-    <img
-      class="overview-img-iphone"
-      src="../img/iPhone16.webp"
-      srcset="../img/iPhone16-2x.webp"
-      alt="iPhone 16"
-    />
+    <svg class="overview-svg" width="244px" height="44px">
+      <use href="../img/icons.svg#scull"></use>
+    </svg>
+    <picture>
+      <source
+        media="(max-width: 375px)"
+        srcset="../img/iPhone16-mob.webp 1x, ../img/iPhone16-mob-2x.webp 2x"
+      />
+      <source
+        media="(min-width: 1200px)"
+        srcset="../img/iPhone16.webp 1x, ../img/iPhone16-2x.webp 2x"
+      />
+      <img
+        class="overview-img-iphone"
+        src="../img/iPhone16-mob.webp"
+        alt="iPhone 16"
+      />
+    </picture>
   </div>
 </section>
