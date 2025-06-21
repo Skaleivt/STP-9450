@@ -1,0 +1,151 @@
+.contact-section {
+  padding: 48px 0;
+  background-color: #2c003e;
+}
+
+.contact-title {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ebe7ec;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.contact-subtitle {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ebe7ec;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.contacts-subtitle-span {
+  display: none;
+}
+
+.divider-arrow {
+  display: block;
+  margin: 0 auto;
+  background-image: url("/img/arrow@1x.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 23px;
+  width: 297px;
+  margin-bottom: 22px;
+}
+
+.contact-text {
+  display: block;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #ebe7ec;
+  margin-bottom: 20px;
+  max-width: 268px;
+}
+
+.contact-text-wrapper {
+  margin-bottom: 20px;
+}
+
+.second-para {
+  margin-bottom: 49px;
+  display: block;
+}
+
+.contact-address-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #ebe7ec;
+}
+
+.contact-link {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: #ebe7ec;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+.divider-plank {
+  display: block;
+  margin: 0 auto;
+  background-image: url("/img/plank@1x.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 52px;
+  width: 295px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-section {
+    padding: 97px 0 120px;
+  }
+  
+  .contact-title {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ebe7ec;
+    text-align: center;
+    margin-bottom: 46px;
+  }
+
+  .contact-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #ebe7ec;
+    margin-bottom: 0;
+  }
+  
+  .divider-arrow {
+    display: none
+  }
+
+  .contact-text-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 0
+  }
+
+  .contact-text {
+    max-width: 1000px;
+    margin: 0;
+  }
+
+  .second-para {
+    margin: 0 auto;
+  }
+
+  .contacts-subtitle-span {
+    display: inline;
+  }
+
+  .divider-plank {
+    display: none
+  }
+
+  .contact-address {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .contact-link {
+    margin-bottom: 0;
+  }
+
+
+}

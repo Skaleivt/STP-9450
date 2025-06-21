@@ -1,0 +1,121 @@
+.connected-section {
+  padding: 48px 0 78px;
+  background-color: #ebe7ec;
+}
+
+.connected-title {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #2c003e;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.connected-subtitle {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #2c003e;
+  margin-bottom: 23px;
+}
+
+.connected-text {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: justify;
+  color: #2c003e;
+  margin-bottom: 30px;
+}
+
+.connected-community-text {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #2c003e;
+}
+
+.connected-list {
+  display: flex;
+  flex-direction: row;
+  gap: calc((100% - 215px) / 4);
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+
+.connected-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c003e;
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+  transition: background-color 250ms ease-in-out;
+}
+
+.connected-list-link:hover,
+.connected-list-link:focus {
+  background-color: #ff3b30;
+}
+
+.connected-social-icon {
+  fill: #ebe7ec;
+}
+
+@media only screen and (min-width: 1200px) {
+  .connected-section {
+    background-color: #bea0c5;
+    padding: 50px 0 95px;
+  }
+
+  .connected-title {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #2c003e;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .connected-subtitle {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2c003e;
+    text-align: center;
+    margin-bottom: 43px;
+  }
+
+  .connected-text {
+    margin-bottom: 39px;
+    text-align: center;
+  }
+
+  .connected-text-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connected-list {
+    order: 5;
+    margin-bottom: 0;
+    gap: 22px;
+  }
+
+  .connected-text-wrapper .connected-community-text {
+    margin-bottom: 65px;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #2c003e;
+  }
+
+  .connected-social-icon {
+    fill: #bea0c5;
+  }
+}
