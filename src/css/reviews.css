@@ -1,0 +1,158 @@
+.reviews-section {
+  background-color: #2c003e;
+  padding: 134px 0 85px;
+}
+
+.reviews-title {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ebe7ec;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.reviews-subtitle {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #ebe7ec;
+  margin-bottom: 22px;
+}
+
+.divider-arrow.arrow-swap {
+  display: none;
+}
+
+.reviews-image-container {
+  background-image: url("/img/reviews@1x.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.reviews-swiper-card-title {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #bea0c5;
+  margin-bottom: 28px;
+}
+
+.reviews-swiper-card-text {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #2c003e;
+  width: 288px;
+  min-height: 236px;
+  background-color: #bea0c5;
+  padding: 10px 16px;
+  border-radius: 12px;
+  line-height: 1.22;
+}
+
+.swiper-slide {
+  margin-bottom: 57px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  opacity: 1;
+  background: #ebe7ec;
+  height: 6px;
+  width: 6px;
+  margin: 0 2.5px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #828282 !important;
+}
+
+.skull-container {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .reviews-section {
+      padding: 50px 0 134px;
+    }
+  
+  .swiper-pagination {
+    display: none;
+  }
+
+  .reviews-image-container {
+    display: none;
+  }
+
+  .divider-arrow.arrow-swap {
+    display: block;
+    margin-bottom: 0;
+  }
+
+    .reviews-swiper-card-title {
+    color: #ebe7ec;
+  }
+
+  .reviews-swiper-card-text {
+    color: #ebe7ec;
+    width: 746px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    line-height: 1.22;
+    min-height: 0px;
+    margin: 0 auto;
+  }
+
+  .swiper-slide {
+    margin-bottom: 31px;
+    height: 200px !important;
+  }
+
+  .reviews-swiper-card-text {
+    margin-bottom: 33px;
+    height: 81px;
+  }
+
+  .reviews-title {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ebe7ec;
+    margin-bottom: 13px;
+  }
+
+  .reviews-subtitle {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ebe7ec;
+    margin-bottom: 75px;
+  }
+
+  .slide-last {
+    height: 120px !important;
+    margin-bottom: 94px !important;
+  }
+
+  .text-last {
+    height: 54px;
+  }
+
+  .skull-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skull-icon {
+    fill: #ebe7ec;
+  }
+}
