@@ -7,7 +7,7 @@
       rgba(255, 255, 255, 0) 55.29%,
       #2c003e 100%
     ),
-    url('../img/hero-background-mob-1x.webp');
+    url('/img/hero-background-mob-1x.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@
         rgba(255, 255, 255, 0) 55.29%,
         #2c003e 100%
       ),
-      url('../img/hero-background-mob-2x.webp');
+      url('/img/hero-background-mob-2x.webp');
   }
 }
 
@@ -88,7 +88,7 @@
   }
   .container-image {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 1.1%, #000 74.14%),
-      url('../img/hero-background-1x.webp');
+      url('/img/hero-background-1x.webp');
     justify-content: end;
     align-items: end;
     background-size: 66.6667% 100%, cover;
@@ -97,7 +97,7 @@
     padding: 64px 52px 64px 0px;
   }
   .container-title {
-    background-image: url('../img/title-background-1x.webp');
+    background-image: url('/img/title-background-1x.webp');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,10 +129,10 @@
           rgba(255, 255, 255, 0) 1.1%,
           #000 74.14%
         ),
-        url('../img/hero-background-2x.webp');
+        url('/img/hero-background-2x.webp');
     }
     .container-title {
-      background-image: url('../img/title-background-2x.webp');
+      background-image: url('/img/title-background-2x.webp');
     }
   }
 }
