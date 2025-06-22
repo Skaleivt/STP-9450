@@ -22,7 +22,7 @@
   margin-bottom: 92px;
 }
 .swiper-slide {
-  background: url('../img/background-features-2x.webp');
+  background: url('/img/background-features-2x.webp');
   min-height: 320px;
   padding: 38px 44px 0px;
   background-size: contain;
@@ -43,13 +43,6 @@
 .swiper-features {
   margin-bottom: 64px;
 }
-/* .swiper-features.swiper-pagination-bullet {
-  border-radius: 100%;
-  fill: #ebe7ec;
-} */
-/* .swiper-features.swiper-pagination-bullet-active {
-  fill: #828282;
-} */
 .features-image {
   margin-bottom: 14px;
 }
