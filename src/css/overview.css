@@ -87,8 +87,8 @@
     width: 440px;
     height: 626px;
     bottom: 10px;
-    left: 100%;
-    transform: translateX(-115%);
+    left: 50%;
+    transform: translateX(+30%);
   }
   .image-container {
     padding: 54px 0;
