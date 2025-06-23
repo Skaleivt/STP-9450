@@ -1,5 +1,7 @@
 .hero {
   background-color: #bea0c5;
+  scroll-margin-top: 72px;
+  margin-top: 72px;
 }
 .container-image {
   background: linear-gradient(
@@ -85,6 +87,8 @@
 @media only screen and (min-width: 1200px) {
   .hero {
     background-color: #2c003e;
+    scroll-margin-top: 98px;
+    margin-top: 98px;
   }
   .container-image {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 1.1%, #000 74.14%),

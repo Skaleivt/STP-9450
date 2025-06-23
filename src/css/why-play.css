@@ -1,6 +1,7 @@
 .why-play {
   background: #bea0c5;
   padding: 48px 0px 20px;
+  scroll-margin-top: 72px;
 }
 .why-play-title {
   font-family: 'Overlock SC', sans-serif;
@@ -45,6 +46,7 @@
     padding: 40px 0px 44px;
     position: relative;
     overflow: visible;
+    scroll-margin-top: 98px;
   }
   .why-play-title {
     margin-bottom: 0px;
