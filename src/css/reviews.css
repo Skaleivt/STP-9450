@@ -57,7 +57,7 @@
   line-height: 1.22;
 }
 
-.swiper-slide {
+.swiper-reviews-slide {
   margin-bottom: 57px;
 }
 
@@ -83,7 +83,7 @@
       padding: 50px 0 134px;
     }
   
-  .swiper-pagination {
+  .swiper-reviews-pagination {
     display: none;
   }
 
@@ -111,7 +111,7 @@
     margin: 0 auto;
   }
 
-  .swiper-slide {
+  .swiper-reviews-slide {
     margin-bottom: 31px;
     height: 200px !important;
   }
