@@ -1,0 +1,78 @@
+.version-section {
+  background-color: #2c003e;
+  padding: 48px 0 0;
+}
+
+.version-title {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: #ebe7ec;
+  margin-bottom: 22px;
+}
+
+.version-text {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: justify;
+  color: #ebe7ec;
+}
+
+.divider-arrow.version-divider {
+  margin-bottom: 22px;
+}
+
+.version-text-wrapper {
+  margin-bottom: 32px;
+}
+
+.version-image-wrapper {
+  background-image: url("/img/version@1x.webp");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 100%;
+  height: 324px;
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2x) {
+  .version-image-wrapper {
+    background-image: url("/img/version@2x.webp");
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .version-section {
+    background-color: #ebe7ec;
+    padding: 66px 0 0;
+  }
+
+  .version-title {
+    font-family: "Slackey", sans-serif;
+    font-size: 48px;
+    color: #2c003e;
+    margin-bottom: 38px;
+  }
+
+  .version-text {
+    text-align: center;
+    color: #2c003e;
+  }
+
+  .version-text-wrapper {
+    margin-bottom: 106px;
+  }
+
+  .version-image-wrapper {
+    background-image: url("/img/version-desk@1x.webp");
+  }
+
+  @media (min-resolution: 192dpi),
+  (min-resolution: 2x) {
+    .version-image-wrapper {
+      background-image: url("/img/version-desk@2x.webp");
+    }
+  }
+}
