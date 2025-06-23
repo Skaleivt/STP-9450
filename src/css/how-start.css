@@ -1,6 +1,7 @@
 .start-section {
   padding: 49px 0 0;
   background-color: #bea0c5;
+  scroll-margin-top: 72px;
 }
 
 .start-image-wrapper {
@@ -52,8 +53,9 @@
 
 @media only screen and (min-width: 1200px) {
   .start-section {
-    padding: 50px 0 108px;
+    padding: 50px 0 0;
     background-color: #2c003e;
+    scroll-margin-top: 98px;
   }
 
   .start-title {

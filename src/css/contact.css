@@ -1,6 +1,7 @@
 .contact-section {
   padding: 48px 0;
   background-color: #2c003e;
+  scroll-margin-top: 72px;
 }
 
 .contact-title {
@@ -89,6 +90,7 @@
 @media only screen and (min-width: 1200px) {
   .contact-section {
     padding: 97px 0 120px;
+    scroll-margin-top: 98px;
   }
   
   .contact-title {

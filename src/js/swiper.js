@@ -23,6 +23,7 @@ const swiper = new Swiper('.swiper', {
     },
     1200: {
       direction: 'vertical',
+      loop: false,
       slidesPerView: 10,
       spaceBetween: 26,
     },

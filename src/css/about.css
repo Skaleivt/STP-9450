@@ -1,5 +1,6 @@
 .about {
   background-color: #ebe7ec;
+  scroll-margin-top: 72px;
 }
 .about-container-color {
   padding-top: 48px;
@@ -36,6 +37,7 @@
 @media only screen and (min-width: 1200px) {
   .about {
     background-color: #2c003e;
+    scroll-margin-top: 98px;
   }
   .about-container-color {
     position: relative;

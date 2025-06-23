@@ -1,6 +1,7 @@
 .connected-section {
   padding: 48px 0 78px;
   background-color: #ebe7ec;
+  scroll-margin-top: 72px;
 }
 
 .connected-title {
@@ -70,6 +71,7 @@
   .connected-section {
     background-color: #bea0c5;
     padding: 50px 0 95px;
+    scroll-margin-top: 98px;
   }
 
   .connected-title {
