@@ -5,17 +5,17 @@
 }
 
 .start-image-wrapper {
-  background-image: url("/img/start-mob@1x.webp");
+  background-image: url('/img/start-mob@1x.webp');
   background-repeat: no-repeat;
   background-position: center bottom;
   width: 288px;
   height: 523px;
   position: relative;
-  bottom: -82px;
+  bottom: -22px;
 }
 
 .start-title {
-  font-family: "Overlock SC", sans-serif;
+  font-family: 'Overlock SC', sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: #2c003e;
@@ -24,7 +24,7 @@
 }
 
 .start-subtitle {
-  font-family: "Overlock SC", sans-serif;
+  font-family: 'Overlock SC', sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
@@ -37,17 +37,21 @@
 }
 
 .start-text {
-  font-family: "Overlock SC", sans-serif;
+  font-family: 'Overlock SC', sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-align: justify;
   color: #2c003e;
 }
 
-@media (min-resolution: 192dpi),
-(min-resolution: 2x) {
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .start-image-wrapper {
-    background-image: url("/img/start-mob@2x.webp");
+    background-image: url('/img/start-mob@2x.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -59,13 +63,13 @@
   }
 
   .start-title {
-    font-family: "Slackey", sans-serif;
+    font-family: 'Slackey', sans-serif;
     font-size: 48px;
     color: #ebe7ec;
   }
 
   .start-subtitle {
-    font-family: "Slackey", sans-serif;
+    font-family: 'Slackey', sans-serif;
     font-size: 24px;
     color: #ebe7ec;
     margin-bottom: 13px;
@@ -86,7 +90,7 @@
   }
 
   .start-image-wrapper {
-    background-image: url("/img/start-desk@1x.webp");
+    background-image: url('/img/start-desk@1x.webp');
     background-position: center bottom;
     width: 383px;
     position: relative;
@@ -94,15 +98,14 @@
     flex-shrink: 0;
   }
 
-  @media (min-resolution: 192dpi),
-  (min-resolution: 2x) {
+  @media (min-resolution: 192dpi), (min-resolution: 2x) {
     .start-image-wrapper {
-      background-image: url("/img/start-desk@2x.webp");
+      background-image: url('/img/start-desk@2x.webp');
     }
   }
 
   .start-text {
-    font-family: "Overlock SC", sans-serif;
+    font-family: 'Overlock SC', sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-align: justify;
