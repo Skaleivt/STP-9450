@@ -58,7 +58,6 @@
   line-height: 1.22;
 }
 
-
 .swiper-reviews-slide {
   margin-bottom: 57px;
 }
@@ -80,12 +79,11 @@
 
 @media only screen and (min-width: 1200px) {
   .reviews-section {
-      padding: 158px 0 134px;
-      scroll-margin-top: -50px;
-    }
-  
-  .swiper-reviews-pagination {
+    padding: 158px 0 134px;
+    scroll-margin-top: -50px;
+  }
 
+  .swiper-reviews-pagination {
     display: none;
   }
 

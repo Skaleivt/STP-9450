@@ -1,17 +1,23 @@
-const buttonAccept = document.getElementById('cookie-modal-btn-accept');
-const buttonDecline = document.getElementById('cookie-modal-btn-decline');
-const modal = document.getElementById('cookie-modal');
+const buttonAccept = document.querySelector(
+  '[data-action="cookie-modal-btn-accept"]'
+);
+const buttonDecline = document.querySelector(
+  '[data-action="cookie-modal-btn-decline"]'
+);
+const modal = document.querySelector('[data-action="cookie-modal"]');
 
-if (!localStorage.getItem('cookiePolicy')) {
-  setTimeout(() => {
-    modal.style.display = 'block';
-  }, 5000);
-}
+document.addEventListener('DOMContentLoaded', () => {
+  if (!localStorage.getItem('cookiePolicy')) {
+    setTimeout(() => {
+      modal.style.display = 'block';
+    }, 5000);
+  }
 
-buttonAccept.addEventListener('click', () => {
-  modal.style.display = 'none';
-  localStorage.setItem('cookiePolicy', 'true');
-});
-buttonDecline.addEventListener('click', () => {
-  modal.style.display = 'none';
+  buttonAccept.addEventListener('click', () => {
+    modal.style.display = 'none';
+    localStorage.setItem('cookiePolicy', 'true');
+  });
+  buttonDecline.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
 });
