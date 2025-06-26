@@ -1,6 +1,7 @@
 .features {
   background: #2c003e;
   padding-top: 58px;
+  scroll-margin-top: 72px;
 }
 .features-title {
   font-family: 'Overlock SC', sans-serif;
@@ -79,6 +80,7 @@
   .features {
     background: #bea0c5;
     padding-top: 68px;
+    scroll-margin-top: 98px;
   }
   .features-title {
     font-family: 'Slackey', sans-serif;

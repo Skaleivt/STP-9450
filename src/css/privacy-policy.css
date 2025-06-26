@@ -15,6 +15,10 @@
   color: #ff3b30;
 }
 
+.back-link:active {
+  color: #bea0c5;
+}
+
 .privacy-section {
   background-color: #2c003e;
   padding: 26px 0 96px;

@@ -1,6 +1,7 @@
 .explore {
   background: #bea0c5;
   padding: 24px 0px 44px;
+  scroll-margin-top: 72px;
 }
 .explore-title {
   font-family: 'Overlock SC', sans-serif;
@@ -84,6 +85,7 @@
   .explore {
     background: #2c003e;
     padding: 48px 0 0;
+    scroll-margin-top: 98px;
   }
   .explore-swiper {
     padding-bottom: 0px !important;

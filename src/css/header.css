@@ -90,6 +90,10 @@
 
   .header-nav-list-link:hover,
   .header-nav-list-link:focus{
+    color: #ebe7ec;
+  }
+
+  .header-nav-list-link:active {
     color: #ff3b30;
   }
 }
