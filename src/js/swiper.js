@@ -13,7 +13,7 @@ const swiper = new Swiper('.swiper-reviews', {
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-reviews-pagination',
   },
   breakpoints: {
     320: {
