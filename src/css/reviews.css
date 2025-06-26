@@ -5,7 +5,7 @@
 }
 
 .reviews-title {
-  font-family: "Overlock SC", sans-serif;
+  font-family: 'Overlock SC', sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: #ebe7ec;
@@ -14,7 +14,7 @@
 }
 
 .reviews-subtitle {
-  font-family: "Overlock SC", sans-serif;
+  font-family: 'Overlock SC', sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
@@ -27,7 +27,7 @@
 }
 
 .reviews-image-container {
-  background-image: url("/img/reviews@1x.webp");
+  background-image: url('/img/reviews@1x.webp');
   background-repeat: no-repeat;
   background-position: center;
   width: 160px;
@@ -36,7 +36,7 @@
 }
 
 .reviews-swiper-card-title {
-  font-family: "Slackey", sans-serif;
+  font-family: 'Slackey', sans-serif;
   font-weight: 400;
   font-size: 24px;
   text-align: center;
@@ -45,7 +45,7 @@
 }
 
 .reviews-swiper-card-text {
-  font-family: "Overlock SC", sans-serif;
+  font-family: 'Overlock SC', sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
@@ -58,12 +58,14 @@
   line-height: 1.22;
 }
 
+
 .swiper-reviews-slide {
   margin-bottom: 57px;
 }
 
-.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
   opacity: 1;
   background: #ebe7ec;
   height: 6px;
@@ -71,7 +73,7 @@
   margin: 0 2.5px !important;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination .swiper-pagination-bullet-active {
   background: #828282 !important;
 }
 
@@ -86,6 +88,7 @@
     }
   
   .swiper-reviews-pagination {
+
     display: none;
   }
 
@@ -124,7 +127,7 @@
   }
 
   .reviews-title {
-    font-family: "Slackey", sans-serif;
+    font-family: 'Slackey', sans-serif;
     font-weight: 400;
     font-size: 48px;
     color: #ebe7ec;
@@ -132,7 +135,7 @@
   }
 
   .reviews-subtitle {
-    font-family: "Slackey", sans-serif;
+    font-family: 'Slackey', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #ebe7ec;

@@ -6,7 +6,6 @@
   padding-top: 48px;
   padding-bottom: 48px;
   position: relative;
-  /* overflow: visible; */
   z-index: 1;
   background: #2c003e;
   padding-bottom: 450px;
@@ -46,7 +45,6 @@
   right: 0;
   left: 50%;
   transform: translateX(-50%);
-  /* width: 100%; */
 }
 .overview-img {
   margin-bottom: 20px;
