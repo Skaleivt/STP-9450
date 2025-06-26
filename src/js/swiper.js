@@ -40,7 +40,7 @@ new Swiper('.swiper-features', {
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-features-pagination',
     clickable: true,
   },
   breakpoints: {
@@ -63,7 +63,7 @@ new Swiper('.explore-swiper', {
   centeredSlides: true,
   loop: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: '.explore-swiper-pagination',
     clickable: true,
   },
   navigation: {
