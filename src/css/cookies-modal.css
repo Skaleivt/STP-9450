@@ -43,6 +43,21 @@
 .cookie-modal-svg {
   fill: #2c003e;
 }
+
+.decline:hover {
+  --color2: #56ccf2;
+  --color3: #56ccf2;
+}
+.accept:hover {
+  --color2: #56ccf2;
+}
+.decline:focus {
+  --color2: #bea0c5;
+  --color3: #bea0c5;
+}
+.accept:focus {
+  --color2: #bea0c5;
+}
 .cookie-modal-btn {
   border: none;
   background: none;

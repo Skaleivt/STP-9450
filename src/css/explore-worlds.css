@@ -62,16 +62,16 @@
 .swiper-slide.explore-slide.swiper-slide-next {
   z-index: 4;
 }
-.explore-swiper .swiper-pagination {
+.explore-swiper-pagination {
   line-height: 1;
 }
-.explore-swiper .swiper-pagination-bullet {
+.explore-swiper-pagination .swiper-pagination-bullet {
   width: 6px;
   height: 6px;
   background: #ebe7ec;
   opacity: 1;
 }
-.explore-swiper .swiper-pagination-bullet-active {
+.explore-swiper-pagination .swiper-pagination-bullet-active {
   background: #2c003e;
 }
 .explore-prev,
@@ -185,8 +185,5 @@
   }
   .explore-next {
     right: 0%;
-  }
-  .swiper-svg {
-    fill: red;
   }
 }
