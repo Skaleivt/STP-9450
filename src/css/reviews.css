@@ -63,17 +63,15 @@
   margin-bottom: 57px;
 }
 
-.swiper-pagination.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
+.swiper-reviews-pagination .swiper-pagination-bullet {
   opacity: 1;
   background: #ebe7ec;
   height: 6px;
   width: 6px;
-  margin: 0 2.5px !important;
+  margin: 0 2.5px ;
 }
 .swiper-reviews-pagination .swiper-pagination-bullet-active {
-  background: #828282 !important;
+  background: #828282 ;
 }
 
 .skull-container {
