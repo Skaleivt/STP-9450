@@ -4,15 +4,30 @@
   scroll-margin-top: 72px;
 }
 
+.start-content-wrapper-color {
+  position: relative;
+}
+
+.start-image-wrapper-color {
+  background-color: #2c003e;
+  height: 324px;
+  width: 100%;
+  position: absolute;
+  bottom: 140px;
+}
+
 .start-image-wrapper {
   background-image: url('/img/start-mob@1x.webp');
   background-repeat: no-repeat;
   background-position: center bottom;
   width: 288px;
-  height: 523px;
-  position: relative;
-  bottom: -22px;
+  height: 514px;
+  position: absolute;
+  bottom: 45px;
+  z-index: 1;
 }
+
+
 
 .start-title {
   font-family: 'Overlock SC', sans-serif;
@@ -42,6 +57,7 @@
   font-size: 22px;
   text-align: justify;
   color: #2c003e;
+  padding-bottom: 581px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
@@ -96,6 +112,10 @@
     position: relative;
     top: -34px;
     flex-shrink: 0;
+  }
+
+  .start-image-wrapper-color {
+    display: none;
   }
 
   @media (min-resolution: 192dpi), (min-resolution: 2x) {
