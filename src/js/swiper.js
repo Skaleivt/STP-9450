@@ -3,7 +3,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const swiper = new Swiper('.my-swiper', {
+const swiper = new Swiper('.swiper-reviews', {
   // Optional parameters
   modules: [Pagination],
   direction: 'horizontal',
