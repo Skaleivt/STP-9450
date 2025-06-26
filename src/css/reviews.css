@@ -63,7 +63,7 @@
   margin-bottom: 57px;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   opacity: 1;
@@ -72,8 +72,7 @@
   width: 6px;
   margin: 0 2.5px !important;
 }
-
-.swiper-pagination .swiper-pagination-bullet-active {
+.swiper-reviews-pagination .swiper-pagination-bullet-active {
   background: #828282 !important;
 }
 
