@@ -12,3 +12,9 @@ body {
 main {
   flex-grow: 1;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
