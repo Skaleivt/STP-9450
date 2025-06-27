@@ -20,7 +20,7 @@ function initReviewsSwiper() {
     spaceBetween: 40,
     initialSlide: 4,
     pagination: {
-      el: '.swiper-reviews-pagination',
+      el: '[data-action="reviews-pagination"]',
     },
     breakpoints: {
       320: {
@@ -49,7 +49,7 @@ function initFeaturesSwiper() {
     spaceBetween: 40,
     initialSlide: 2,
     pagination: {
-      el: '.swiper-features-pagination',
+      el: '[data-action="features-pagination"]',
       clickable: true,
     },
     breakpoints: {
@@ -77,12 +77,12 @@ function initExploreSwiper() {
     centeredSlides: true,
     loop: true,
     pagination: {
-      el: '.explore-swiper-pagination',
+      el: '[data-action="explore-pagination"]',
       clickable: true,
     },
     navigation: {
-      nextEl: '.explore-next',
-      prevEl: '.explore-prev',
+      nextEl: '[data-action="explore-next"]',
+      prevEl: '[data-action="explore-prev"]',
     },
     breakpoints: {
       1200: {
