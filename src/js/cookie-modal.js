@@ -19,5 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   buttonDecline.addEventListener('click', () => {
     modal.style.display = 'none';
+    localStorage.setItem('cookiePolicy', 'false');
   });
 });

@@ -1,7 +1,7 @@
 function reorderBlocks() {
-  const wrapper = document.querySelector('.explore-wrapper');
-  const block1 = document.querySelector('.explore-content');
-  const block2 = document.querySelector('.explore-swipe');
+  const wrapper = document.querySelector('[data-action="explore-wrapper"]');
+  const block1 = document.querySelector('[data-action="explore-content"]');
+  const block2 = document.querySelector('[data-action="explore-swipe"]');
 
   if (window.innerWidth >= 1199) {
     // На десктопі: Swiper перший
