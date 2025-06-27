@@ -2,6 +2,21 @@
   padding: 49px 0 0;
   background-color: #bea0c5;
   scroll-margin-top: 72px;
+  position: relative;
+
+}
+
+.start-image-wrapper {
+  background-image: url('/img/start-desk@1x.webp');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  width: 100%;
+  height: 514px;
+  bottom: 45px;
+  z-index: 11;
+  margin: 0 auto;
+  display: block;
 }
 
 .start-content-wrapper-color {
@@ -16,16 +31,18 @@
   bottom: 140px;
 }
 
-.start-image-wrapper {
-  background-image: url('/img/start-mob@1x.webp');
+/* .start-image-wrapper {
+  background-image: url('/img/start-desk@1x.webp');
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
+  max-width: 391px;
   width: 288px;
   height: 514px;
   position: absolute;
   bottom: 45px;
+  overflow: visible;
   z-index: 1;
-}
+} */
 
 
 
@@ -60,14 +77,10 @@
   padding-bottom: 581px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi),
+(min-resolution: 2x) {
   .start-image-wrapper {
-    background-image: url('/img/start-mob@2x.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('/img/start-desk@2x.webp');
   }
 }
 
@@ -98,7 +111,8 @@
     gap: 31px;
     width: 100%;
     margin: 0 auto;
-    padding-left: 32px;
+    padding-right: 0;
+    justify-content: flex-end;
   }
 
   .start-content-wrapper-color {
@@ -106,22 +120,14 @@
   }
 
   .start-image-wrapper {
-    background-image: url('/img/start-desk@1x.webp');
-    background-position: center bottom;
     width: 383px;
-    position: relative;
-    top: -34px;
-    flex-shrink: 0;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-143%);
   }
 
   .start-image-wrapper-color {
     display: none;
-  }
-
-  @media (min-resolution: 192dpi), (min-resolution: 2x) {
-    .start-image-wrapper {
-      background-image: url('/img/start-desk@2x.webp');
-    }
   }
 
   .start-text {
@@ -131,7 +137,7 @@
     text-align: justify;
     color: #2c003e;
     order: 2;
-    padding: 36px 0 45px;
+    padding: 36px 0 45px ;
     width: 711px;
     line-height: 1.24;
   }

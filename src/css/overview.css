@@ -1,14 +1,13 @@
 .overview {
   background-color: #2c003e;
   scroll-margin-top: 72px;
+  position: relative;
+  padding-top: 48px;
+  padding-bottom: 472px;
 }
 .overview-container {
-  padding-top: 48px;
-  padding-bottom: 48px;
   position: relative;
   z-index: 1;
-  background: #2c003e;
-  padding-bottom: 450px;
 }
 .owerview-title {
   font-family: 'Overlock SC', sans-serif;
@@ -33,12 +32,18 @@
   text-align: justify;
   color: #ebe7ec;
 }
-.image-container {
-  background-color: #bea0c5;
-  position: relative;
-  z-index: 2;
-  height: 120px;
+
+.image-container-pic {
+  background-image: url("/img/iPhone16.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 555px;
+  width: 100%;
+  bottom: -105px;
+  position: absolute;
+  z-index: 3;
 }
+
 .overview-img-iphone {
   position: absolute;
   bottom: 0px;
@@ -53,11 +58,30 @@
   display: none;
 }
 @media only screen and (min-width: 1200px) {
-  .overview-container {
-    background: linear-gradient(to bottom, #bea0c5 31%, #2c003e 31%);
-    padding: 40px 20px;
+  .overview {
+    padding-top: 40px;
+    padding-bottom: 53px;
     scroll-margin-top: 98px;
+    background-color: #bea0c5;
   }
+  
+  .overview-container {
+    background-color: #bea0c5 ;
+  }
+
+  .overview-text-color-wrapper {
+    background-color: #2c003e;
+    width: 100%;
+    margin-bottom: 55px;
+  }
+
+  .overwiew-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 364px;
+  }
+
   .owerview-title {
     font-family: 'Slackey', sans-serif;
     font-weight: 400;
@@ -70,7 +94,7 @@
     font-size: 24px;
     text-align: center;
     color: #2c003e;
-    margin-bottom: 55px;
+    margin-bottom: 29px;
   }
   .owerview-text {
     max-width: 683px;
@@ -79,6 +103,8 @@
     font-size: 22px;
     text-align: justify;
     color: #bea0c5;
+    padding-top: 26px ;
+
   }
   .overview-img {
     display: none;
@@ -91,12 +117,19 @@
     transform: translateX(+30%);
   }
   .image-container {
-    padding: 54px 0;
     height: auto;
   }
   .overview-svg {
     display: block;
     fill: #2c003e;
     margin: 0 auto;
+  }
+
+  .image-container-pic {
+    height: 546px;
+    width: 431px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-143%);
   }
 }
