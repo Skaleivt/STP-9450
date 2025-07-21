@@ -20,14 +20,13 @@
   background-image: url('/img/start-mob@1x.webp');
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: contain;
   width: 288px;
   height: 514px;
   position: absolute;
   bottom: 45px;
   z-index: 1;
 }
-
-
 
 .start-title {
   font-family: 'Overlock SC', sans-serif;
@@ -60,14 +59,12 @@
   padding-bottom: 581px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media only screen and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (max-width: 1199px) and (min-resolution: 192dpi),
+  only screen and (max-width: 1199px) and (min-resolution: 2dppx) {
   .start-image-wrapper {
     background-image: url('/img/start-mob@2x.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
