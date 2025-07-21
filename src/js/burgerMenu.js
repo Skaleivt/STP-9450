@@ -1,14 +1,3 @@
-// const openBtnEl = document.querySelector('[data-action="open"]');
-// const closeBtnEl = document.querySelector('[data-action="close"]');
-// const burgerMenuEl = document.querySelector('[data-visible]');
-
-// openBtnEl.addEventListener('click', e => {
-//   burgerMenuEl.dataset.visible = 'open';
-// });
-
-// closeBtnEl.addEventListener('click', e => {
-//   burgerMenuEl.dataset.visible = 'close';
-// });
 
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
@@ -19,18 +8,18 @@ const linkList = document.querySelector('[id="mobile-list-links"]');
 
 
 openMenuBtn.addEventListener("click", e => {
-  mobileMenu.classList.add("is-open");
+  mobileMenu.dataset.visible = "open";
   disableBodyScroll(document.body);
 });
 
 closeMenuBtn.addEventListener("click", e => {
-  mobileMenu.classList.remove("is-open");
+  mobileMenu.dataset.visible = "close";
   enableBodyScroll(document.body);
 });
 
 linkList.addEventListener("click", e => {
   if (e.target.nodeName === "UL") return;
-  mobileMenu.classList.remove("is-open");
+  mobileMenu.dataset.visible = "close";
   enableBodyScroll(document.body);
 });
 
